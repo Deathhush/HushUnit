@@ -5,6 +5,7 @@ A C++ Unit Test framework that follows the xUnit framework pattern. By leveragin
 
 Following are some examples:
 
+
 TESTCLASS(StringTests)
 {
 public:
@@ -39,6 +40,7 @@ public:
 		Assert::IsTrue(s.data == Null);
 	}
 };
+
 
 TESTCLASS(UnitTestTests)
 {
